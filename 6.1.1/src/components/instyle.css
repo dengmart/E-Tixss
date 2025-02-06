@@ -1,0 +1,17 @@
+.kard {
+  margin-left: 10%;
+  margin-top: 7%;
+  background: rgb(113, 129, 135);
+}
+a {
+  text-decoration: none;
+  align-content: center;
+}
+
+.wrapper-main {
+  width: 1000px;
+  margin: 0 auto;
+}
+.signup {
+  text-align: center;
+}
