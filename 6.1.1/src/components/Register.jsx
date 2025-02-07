@@ -1,28 +1,146 @@
+import Container from "react-bootstrap/Container";
+import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
+import Card from "react-bootstrap/Card";
 
 function Register() {
   return (
-    <Form>
-      <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
-        <Form.Label column sm="2">
-          Email
-        </Form.Label>
-        <Col sm="10">
-          <Form.Control plaintext readOnly defaultValue="email@example.com" />
-        </Col>
-      </Form.Group>
+    <div className="register">
+      <Card>
+        <Card.Body>
+          <Card.Title>
+            <h1>Register</h1>
+          </Card.Title>
+          <Card.Subtitle className="mb-2 text-muted">
+            <h3>Etixss</h3>
+          </Card.Subtitle>
+          <Card.Text>
+            <Container fluid>
+              <Row>
+                <Col>
+                  {" "}
+                  <Form.Control
+                    type="text"
+                    placeholder="Disabled input"
+                    aria-label="Disabled input example"
+                    disabled
+                    readOnly
+                  />
+                  <br />
+                  <Form.Control
+                    type="text"
+                    placeholder="Disabled readonly input"
+                    aria-label="Disabled input example"
+                    readOnly
+                  />
+                </Col>
 
-      <Form.Group as={Row} className="mb-3" controlId="formPlaintextPassword">
-        <Form.Label column sm="2">
-          Password
-        </Form.Label>
-        <Col sm="10">
-          <Form.Control type="password" placeholder="Password" />
-        </Col>
-      </Form.Group>
-    </Form>
+                <Col>
+                  {" "}
+                  <Form.Control
+                    type="text"
+                    placeholder="Disabled input"
+                    aria-label="Disabled input example"
+                    disabled
+                    readOnly
+                  />
+                  <br />
+                  <Form.Control
+                    type="text"
+                    placeholder="Disabled readonly input"
+                    aria-label="Disabled input example"
+                    readOnly
+                  />
+                </Col>
+              </Row>
+
+              <br />
+
+              <Row>
+                <Col>
+                  {" "}
+                  <Form.Control
+                    type="text"
+                    placeholder="Disabled input"
+                    aria-label="Disabled input example"
+                    disabled
+                    readOnly
+                  />
+                  <br />
+                  <Form.Control
+                    type="text"
+                    placeholder="Disabled readonly input"
+                    aria-label="Disabled input example"
+                    readOnly
+                  />
+                </Col>
+
+                <Col>
+                  {" "}
+                  <Form.Control
+                    type="text"
+                    placeholder="Disabled input"
+                    aria-label="Disabled input example"
+                    disabled
+                    readOnly
+                  />
+                  <br />
+                  <Form.Control
+                    type="text"
+                    placeholder="Disabled readonly input"
+                    aria-label="Disabled input example"
+                    readOnly
+                  />
+                </Col>
+              </Row>
+              <br />
+              <Row>
+                <Col>
+                  {" "}
+                  <Form.Control
+                    type="text"
+                    placeholder="Disabled input"
+                    aria-label="Disabled input example"
+                    disabled
+                    readOnly
+                  />
+                  <br />
+                  <Form.Control
+                    type="text"
+                    placeholder="Disabled readonly input"
+                    aria-label="Disabled input example"
+                    readOnly
+                  />
+                </Col>
+
+                <Col>
+                  {" "}
+                  <Form.Control
+                    type="text"
+                    placeholder="Disabled input"
+                    aria-label="Disabled input example"
+                    disabled
+                    readOnly
+                  />
+                  <br />
+                  <Form.Control
+                    type="text"
+                    placeholder="Disabled readonly input"
+                    aria-label="Disabled input example"
+                    readOnly
+                  />
+                </Col>
+              </Row>
+              <br />
+              <Button variant="primary">Primary</Button>
+            </Container>
+          </Card.Text>
+          <Card.Link href="#">Already registered? Login</Card.Link>
+        </Card.Body>
+      </Card>
+    </div>
   );
 }
 

@@ -3,12 +3,12 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import Register from "./components/Register";
+import Loginform from "./components/Loginform";
 
 function App() {
   return (
     <>
       <div>
-        <Loginform />
         <Register />
       </div>
     </>
