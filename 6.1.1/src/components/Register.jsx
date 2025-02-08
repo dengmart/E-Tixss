@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
@@ -143,7 +144,10 @@ function Register() {
                 <Button variant="primary">Primary</Button>
               </Container>
             </Card.Text>
-            <Card.Link href="#">Already registered? Login</Card.Link>
+            <Card.Link href="#">
+              {" "}
+              <Link to="Loginform">Already registered? Login</Link>
+            </Card.Link>
           </Card.Body>
         </Card>
       </span>
