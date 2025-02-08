@@ -1,7 +1,26 @@
-.kard {
-  margin-left: 10%;
-  margin-top: 7%;
-  background: rgb(113, 129, 135);
+@media only screen and (min-width: 768px) {
+  .kard {
+    width: 50rem;
+    margin-left: 20%;
+    margin-top: 7%;
+    background: rgb(135, 135, 113);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .kard {
+    margin-left: 10%;
+    margin-top: 7%;
+    background: rgb(113, 129, 135);
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .kard {
+    margin-left: 10%;
+    margin-top: 7%;
+    background: rgb(113, 129, 135);
+  }
 }
 a {
   text-decoration: none;
@@ -41,4 +60,8 @@ a {
     box-sizing: border-box;
     width: 35rem;
   }
+}
+
+h3 {
+  color: gold;
 }
