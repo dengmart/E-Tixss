@@ -17,11 +17,10 @@ import "./instyle.css";
 
 function Naf() {
   return (
-    <div>
+    <div className="naf">
       <Stack direction="horizontal" gap={3}>
         <div className="p-2">
-          {" "}
-          <Navbar expand="lg" className="bg-body-tertiary">
+          <Navbar expand="lg">
             <Container fluid>
               <Navbar.Brand href="#">
                 <h3>Etixss</h3>
@@ -37,19 +36,15 @@ function Naf() {
                     <Link to="/Dash">Home</Link>
                   </Nav.Link>
                   <Nav.Link>
-                    {" "}
                     <Link to="Aboutus">About us</Link>
                   </Nav.Link>
                   <Nav.Link>
-                    {" "}
                     <Link to="Events">Events</Link>
                   </Nav.Link>
                   <Nav.Link>
-                    {" "}
                     <Link to="/Tickets">Tickets</Link>
                   </Nav.Link>
                   <Nav.Link>
-                    {" "}
                     <Link to="/FAQ">FAQ</Link>
                   </Nav.Link>
                   <NavDropdown title="Services" id="navbarScrollingDropdown">
@@ -71,7 +66,6 @@ function Naf() {
 
         <div className="p-2 ms-auto">
           <Link to="Register">
-            {" "}
             <h6>Sign up</h6>
           </Link>
         </div>
