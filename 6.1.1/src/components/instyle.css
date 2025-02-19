@@ -8,6 +8,13 @@
 }
 
 @media only screen and (min-width: 600px) {
+  .naf {
+    margin-top: 0.5%;
+  }
+  .register {
+    visibility: hidden;
+  }
+
   .kard {
     margin-left: 10%;
     margin-top: 7%;
@@ -15,13 +22,10 @@
   }
 }
 
-@media only screen and (min-width: 600px) {
-  .naf {
-    background: rgb(2, 2, 2);
-    margin-top: 0.5%;
-}
-
 @media only screen and (min-width: 320px) {
+  .Register {
+    visibility: hidden;
+  }
   .kard {
     margin-left: 10%;
     margin-top: 7%;

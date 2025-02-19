@@ -33,6 +33,9 @@ function Naf() {
                   navbarScroll
                 >
                   <Nav.Link>
+                    <Nav.Link href="#" className="register">
+                      Sign up
+                    </Nav.Link>
                     <Link to="/Dash">Home</Link>
                   </Nav.Link>
                   <Nav.Link>
@@ -65,8 +68,8 @@ function Naf() {
         </div>
 
         <div className="p-2 ms-auto">
-          <Link to="Register">
-            <h6>Sign up</h6>
+          <Link to="">
+            <h6 className="Register">Sign up</h6>
           </Link>
         </div>
 
