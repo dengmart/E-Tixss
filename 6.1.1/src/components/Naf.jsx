@@ -33,9 +33,6 @@ function Naf() {
                   navbarScroll
                 >
                   <Nav.Link>
-                    <Nav.Link href="#" className="register">
-                      Sign up
-                    </Nav.Link>
                     <Link to="/Dash">Home</Link>
                   </Nav.Link>
                   <Nav.Link>
