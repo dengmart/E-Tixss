@@ -23,7 +23,7 @@ function Naf() {
           <Navbar expand="lg">
             <Container fluid>
               <Navbar.Brand href="#">
-                <h3>Etixss</h3>
+                <h3>NLYYA-JUBA</h3>
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="navbarScroll" />
               <Navbar.Collapse id="navbarScroll">
@@ -33,22 +33,33 @@ function Naf() {
                   navbarScroll
                 >
                   <Nav.Link>
-                    <Link to="/Dash">Home</Link>
+                    <Link to="/Dash">
+                      <p className="link">Home</p>
+                    </Link>
                   </Nav.Link>
                   <Nav.Link>
-                    <Link to="Aboutus">About us</Link>
+                    <Link to="Aboutus">
+                      <p className="link">About Us</p>
+                    </Link>
                   </Nav.Link>
                   <Nav.Link>
-                    <Link to="Events">Events</Link>
+                    <Link to="Events">
+                      <p className="link">Events</p>
+                    </Link>
                   </Nav.Link>
                   <Nav.Link>
-                    <Link to="/Tickets">Tickets</Link>
+                    <Link to="/Tickets">
+                      <p className="link">Executives</p>
+                    </Link>
                   </Nav.Link>
                   <Nav.Link>
-                    <Link to="/FAQ">FAQ</Link>
+                    <Link to="/FAQ">
+                      <p className="link">FAQs</p>
+                    </Link>
                   </Nav.Link>
                   <NavDropdown title="Services" id="navbarScrollingDropdown">
                     <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                    <NavDropdown.Divider />
                     <NavDropdown.Item href="#action4">
                       Another action
                     </NavDropdown.Item>
@@ -57,7 +68,9 @@ function Naf() {
                       Something else here
                     </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="#">Visit Sematech</Nav.Link>
+                  <Nav.Link href="#">
+                    <p className="sematech">Visit Sematech</p>
+                  </Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>

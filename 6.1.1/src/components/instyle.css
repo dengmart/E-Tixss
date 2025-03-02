@@ -1,9 +1,12 @@
+.naf {
+  background-color: aliceblue;
+}
 @media only screen and (min-width: 768px) {
   .kard {
     width: 50rem;
     margin-left: 20%;
     margin-top: 7%;
-    background: rgb(135, 135, 113);
+    background: rgb(239, 239, 229);
   }
 }
 
@@ -73,5 +76,11 @@ a {
 }
 
 h3 {
-  color: gold;
+  color: rgb(33, 23, 218);
+}
+.link {
+  color: rgb(6, 6, 6);
+}
+.sematech {
+  color: rgb(167, 144, 12);
 }
