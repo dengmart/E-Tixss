@@ -68,21 +68,19 @@ function Naf() {
                       Something else here
                     </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="#">
-                    <p className="sematech">Visit Sematech</p>
+                  <Nav.Link href="Register">
+                    <p className="register">Sign Up</p>
                   </Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>
           </Navbar>
         </div>
-
-        <div className="p-2 ms-auto">
-          <Link to="">
-            <h6 className="Register">Sign up</h6>
+        <div className="Reg">
+          <Link to="Register">
+            <h6>Sign up</h6>
           </Link>
         </div>
-
         <div className="p-2">
           <Form className="d-flex">
             <Form.Control

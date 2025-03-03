@@ -1,23 +1,25 @@
 .naf {
   background-color: aliceblue;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
   .kard {
     width: 50rem;
     margin-left: 20%;
     margin-top: 7%;
     background: rgb(239, 239, 229);
   }
-}
-
-@media only screen and (min-width: 600px) {
-  .naf {
-    margin-top: 0.5%;
-  }
   .register {
     visibility: hidden;
   }
+  .Reg {
+    visibility: visible;
+  }
+}
 
+@media only screen and (min-width: 992px) {
+  .naf {
+    margin-top: 0.5%;
+  }
   .kard {
     margin-left: 10%;
     margin-top: 7%;
@@ -25,16 +27,32 @@
   }
 }
 
-@media only screen and (min-width: 320px) {
-  .Register {
-    visibility: hidden;
-  }
+@media only screen and (min-width: 768px) {
   .kard {
     margin-left: 10%;
     margin-top: 7%;
     background: rgb(113, 129, 135);
   }
+  .link {
+    color: rgb(6, 6, 6);
+  }
+  .Reg {
+    visibility: visible;
+  }
 }
+
+@media only screen and (min-width: 600px) {
+  .link {
+    color: rgb(6, 6, 6);
+  }
+  .link {
+    color: rgb(6, 6, 6);
+  }
+  .Reg {
+    visibility: hidden;
+  }
+}
+
 a {
   text-decoration: none;
   align-content: center;
@@ -44,43 +62,16 @@ a {
   width: 1000px;
   margin: 0 auto;
 }
-.signup {
-  text-align: center;
-}
-
-@media only screen and (min-width: 768px) {
-  .register {
-    margin-left: 18%;
-    margin-top: 2.5%;
-    box-sizing: border-box;
-    width: 50rem;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .register {
-    margin: auto;
-    margin-top: 2.5%;
-    box-sizing: border-box;
-    width: 35rem;
-  }
-}
 
 @media only screen and (min-width: 320px) {
-  .register {
-    margin: auto;
-    margin-top: 2.5%;
-    box-sizing: border-box;
-    width: 35rem;
+  .link {
+    color: rgb(6, 6, 6);
+  }
+  .Reg {
+    visibility: hidden;
   }
 }
 
 h3 {
   color: rgb(33, 23, 218);
-}
-.link {
-  color: rgb(6, 6, 6);
-}
-.sematech {
-  color: rgb(167, 144, 12);
 }

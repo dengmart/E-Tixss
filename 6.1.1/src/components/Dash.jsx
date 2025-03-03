@@ -17,12 +17,14 @@ import "./instyle.css";
 
 export default function Dash() {
   return (
-    <Stack direction="horizontal" gap={3}>
-      <div className="p-2">first stack</div>
+    <div className="stacks">
+      <Stack direction="horizontal" gap={3}>
+        <div className="p-2">first stack</div>
 
-      <div className="p-2 ms-auto">second stack</div>
+        <div className="p-2 ms-auto">second stack</div>
 
-      <div className="p-2">third stack</div>
-    </Stack>
+        <div className="p-2">third stack</div>
+      </Stack>
+    </div>
   );
 }

@@ -16,9 +16,9 @@ function App() {
         <Naf />
         <Routes>
           <Route path="/" element={<Dash />} />
+          <Route path="/Executives" element={<Executives />} />
           <Route path="/Register" element={<Register />} />
           <Route path="/Loginform" element={<Loginform />} />
-          <Route path="/Executives" element={<Executives />} />
         </Routes>
       </BrowserRouter>
     </>
